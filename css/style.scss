@@ -1,3 +1,17 @@
-.buttons {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  background-color: cornflowerblue;
+}
+
+h2 {
+  text-align: center;
+}
+
+.center {
   display: flex;
+  justify-content: center;
 }
