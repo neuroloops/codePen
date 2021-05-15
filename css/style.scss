@@ -1,14 +1,13 @@
 body {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-.wrapper {
+  // margin: 0;
+  // padding: 0;
+  // padding-bottom: 100px;
   background-color: cornflowerblue;
 }
 
-h2 {
-  text-align: center;
+.title {
+  margin: 20px;
 }
 
 .center {
@@ -25,7 +24,7 @@ img {
   border: none;
   color: white;
   padding: 0.5em 0.8em;
-  text-align: center;#d34836
+  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 1em;
@@ -33,5 +32,4 @@ img {
   cursor: pointer;
   border-radius: 6px;
   box-shadow: 6px;
-  
 }
