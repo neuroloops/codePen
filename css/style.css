@@ -1,8 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
+body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper {
@@ -20,5 +20,25 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+img {
+  width: 32px;
+}
+
+.button {
+  background-color: #0b4c75;
+  border: none;
+  color: white;
+  padding: 0.5em 0.8em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  -webkit-box-shadow: 6px;
+          box-shadow: 6px;
 }
 /*# sourceMappingURL=style.css.map */

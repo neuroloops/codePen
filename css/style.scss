@@ -1,7 +1,7 @@
-* {
+body {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 .wrapper {
   background-color: cornflowerblue;
@@ -14,4 +14,24 @@ h2 {
 .center {
   display: flex;
   justify-content: center;
+}
+
+img {
+  width: 32px;
+}
+
+.button {
+  background-color: #0b4c75;
+  border: none;
+  color: white;
+  padding: 0.5em 0.8em;
+  text-align: center;#d34836
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 6px;
+  
 }
